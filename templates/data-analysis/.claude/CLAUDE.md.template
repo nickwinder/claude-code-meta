@@ -1,0 +1,79 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## Project Information
+
+- **Created**: {{TIMESTAMP}}
+- **Template**: {{PROJECT_TYPE}}
+- **Location**: {{PROJECT_PATH}}
+
+## Data Analysis Environment
+
+This project is set up for data analysis using Python, Jupyter notebooks, and common data science libraries.
+
+## Project Structure
+
+```
+{{PROJECT_PATH}}/
+├── data/
+│   ├── raw/          # Original, immutable data
+│   ├── processed/    # Cleaned, transformed data
+│   └── interim/      # Intermediate processing steps
+├── notebooks/        # Jupyter notebooks
+├── scripts/          # Python scripts
+├── reports/          # Generated analysis, HTML, PDF, etc.
+├── figures/          # Generated graphics and figures
+└── .claude/          # Claude Code configuration
+```
+
+## Workflow
+
+1. **Data Collection**: Gather raw data into `data/raw/`
+2. **Exploration**: Initial analysis in Jupyter notebooks
+3. **Cleaning**: Process and clean data into `data/processed/`
+4. **Analysis**: Perform statistical analysis and modeling
+5. **Visualization**: Create charts and visualizations
+6. **Reporting**: Generate reports and summaries
+
+## Common Libraries
+
+- pandas: Data manipulation
+- numpy: Numerical computing
+- matplotlib/seaborn: Visualization
+- scikit-learn: Machine learning
+- jupyter: Interactive notebooks
+
+## Getting Started
+
+1. Set up virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install pandas numpy matplotlib seaborn jupyter
+   ```
+
+3. Start Jupyter:
+   ```bash
+   jupyter notebook
+   ```
+
+## Data Guidelines
+
+- Keep raw data immutable (never modify original files)
+- Document data sources and collection methods
+- Version control code, not data
+- Use relative paths for portability
+- Include data dictionaries
+
+## Available Skills
+
+[Skills will be listed here as they are added]
+
+## Available Agents
+
+[Agents will be listed here as they are added]

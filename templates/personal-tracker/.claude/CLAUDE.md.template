@@ -1,0 +1,68 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## Project Information
+
+- **Created**: {{TIMESTAMP}}
+- **Template**: {{PROJECT_TYPE}}
+- **Location**: {{PROJECT_PATH}}
+
+## Tracking Purpose
+
+This project is designed for personal data tracking and analysis.
+
+## Data Structure
+
+[Document your data format and storage strategy]
+
+Data is stored in JSON format for easy querying and portability:
+
+```json
+{
+  "date": "2025-01-15",
+  "metric": "value",
+  "notes": "Additional context"
+}
+```
+
+## Directory Structure
+
+```
+{{PROJECT_PATH}}/
+├── data/             # Data storage
+│   └── entries/      # Individual entries
+├── scripts/          # Analysis and export scripts
+├── docs/             # Documentation
+└── .claude/          # Claude Code configuration
+```
+
+## Usage
+
+Use custom skills to:
+- Log new entries with validation
+- Analyze trends and patterns
+- Generate reports and visualizations
+- Export data in various formats
+
+## Data Privacy
+
+All data is stored locally in this directory. No external services are used unless explicitly configured. Ensure this directory is:
+
+- Backed up regularly
+- Not committed to public repositories
+- Excluded from cloud sync if containing sensitive information
+
+## Available Skills
+
+[Skills will be listed here as they are added]
+
+Common skills for tracking projects:
+- `log-entry`: Record new data with validation
+- `analyze-trends`: Statistical analysis and insights
+- `generate-report`: Create summaries and reports
+- `export-data`: Export in CSV, JSON, or other formats
+
+## Available Agents
+
+[Agents will be listed here as they are added]

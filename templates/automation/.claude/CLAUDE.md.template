@@ -1,0 +1,110 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## Project Information
+
+- **Created**: {{TIMESTAMP}}
+- **Template**: {{PROJECT_TYPE}}
+- **Location**: {{PROJECT_PATH}}
+
+## Automation Purpose
+
+This project contains scripts and tools for automating tasks and workflows.
+
+## Project Structure
+
+```
+{{PROJECT_PATH}}/
+├── scripts/          # Automation scripts
+│   ├── bash/         # Shell scripts
+│   └── python/       # Python scripts
+├── config/           # Configuration files
+├── logs/             # Execution logs
+├── docs/             # Script documentation
+└── .claude/          # Claude Code configuration
+```
+
+## Script Guidelines
+
+1. **Documentation**: Every script should have:
+   - Header comment explaining purpose
+   - Usage examples
+   - Required dependencies
+   - Expected inputs/outputs
+
+2. **Error Handling**: Scripts should:
+   - Validate inputs
+   - Handle errors gracefully
+   - Provide meaningful error messages
+   - Exit with appropriate status codes
+
+3. **Logging**: Scripts should:
+   - Log important actions
+   - Include timestamps
+   - Support verbose mode
+   - Rotate logs when needed
+
+4. **Safety**: Scripts should:
+   - Confirm destructive operations
+   - Support dry-run mode
+   - Back up before modifying
+   - Be idempotent when possible
+
+## Common Patterns
+
+### Bash Script Template
+
+```bash
+#!/usr/bin/env bash
+set -euo pipefail  # Exit on error, undefined vars, pipe failures
+
+# Script description
+# Usage: ./script.sh [options] arguments
+
+# Parse arguments
+# Validate inputs
+# Execute with error handling
+# Log results
+```
+
+### Python Script Template
+
+```python
+#!/usr/bin/env python3
+"""
+Script description.
+
+Usage:
+    script.py [options] arguments
+"""
+
+import argparse
+import logging
+
+def main():
+    # Parse arguments
+    # Set up logging
+    # Execute with error handling
+    pass
+
+if __name__ == '__main__':
+    main()
+```
+
+## Scheduling
+
+[Document how to schedule automated runs]
+
+- cron jobs
+- systemd timers
+- GitHub Actions
+- Other scheduling mechanisms
+
+## Available Skills
+
+[Skills will be listed here as they are added]
+
+## Available Agents
+
+[Agents will be listed here as they are added]

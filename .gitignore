@@ -1,0 +1,44 @@
+# Claude Code
+.claude/settings.local.json
+.claude.local.md
+
+# Environment
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary
+*.tmp
+*.log
+tmp/
+temp/
+
+# Example projects (optional - uncomment if you don't want to track examples)
+# examples/

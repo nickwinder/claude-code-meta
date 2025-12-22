@@ -1,0 +1,72 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## Project Information
+
+- **Created**: {{TIMESTAMP}}
+- **Template**: {{PROJECT_TYPE}}
+- **Location**: {{PROJECT_PATH}}
+
+## Development Environment
+
+This is a software development project using Claude Code for coding assistance.
+
+## Project Structure
+
+[Document your directory structure here]
+
+```
+{{PROJECT_PATH}}/
+├── src/              # Source code
+├── tests/            # Test files
+├── docs/             # Documentation
+├── .claude/          # Claude Code configuration
+└── README.md
+```
+
+## Development Workflow
+
+1. **Feature Development**: Create feature branches from main
+2. **Code Review**: Review changes before committing
+3. **Testing**: Run test suite before pushing
+4. **Documentation**: Keep docs updated with code changes
+
+## Coding Standards
+
+[Define your coding standards and conventions]
+
+- Follow language-specific style guides
+- Write meaningful commit messages
+- Add tests for new features
+- Document public APIs
+
+## Testing
+
+[Document how to run tests]
+
+```bash
+# Example
+npm test
+# or
+pytest
+```
+
+## Building
+
+[Document how to build the project]
+
+```bash
+# Example
+npm run build
+# or
+python setup.py build
+```
+
+## Available Skills
+
+[Skills will be listed here as they are added]
+
+## Available Agents
+
+[Agents will be listed here as they are added]

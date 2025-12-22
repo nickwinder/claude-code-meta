@@ -1,0 +1,49 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## About
+
+This project was created using [Claude Code Mastery](https://github.com/yourusername/claude-code-meta) with the `{{PROJECT_TYPE}}` template.
+
+## Getting Started
+
+1. Open this directory in Claude Code:
+   ```bash
+   cd {{PROJECT_PATH}}
+   claude
+   ```
+
+2. Review the project guidelines in `.claude/CLAUDE.md`
+
+3. Start working with Claude!
+
+## Project Structure
+
+```
+{{PROJECT_PATH}}/
+├── .claude/
+│   ├── settings.json     # Claude Code configuration
+│   ├── CLAUDE.md         # Project memory and guidelines
+│   ├── skills/           # Custom skills
+│   └── agents/           # Custom agents
+├── .gitignore
+└── README.md
+```
+
+## Available Skills
+
+[Skills will be listed here as they are added]
+
+## Available Agents
+
+[Agents will be listed here as they are added]
+
+## Documentation
+
+- [Getting Started Guide](docs/getting-started.md) (if applicable)
+- [Claude Code Documentation](https://code.claude.com/docs)
+
+## License
+
+[Add your license here]

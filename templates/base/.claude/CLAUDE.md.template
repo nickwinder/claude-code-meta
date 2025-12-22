@@ -1,0 +1,25 @@
+# {{PROJECT_NAME}}
+
+{{DESCRIPTION}}
+
+## Project Information
+
+- **Created**: {{TIMESTAMP}}
+- **Template**: {{PROJECT_TYPE}}
+- **Location**: {{PROJECT_PATH}}
+
+## Purpose
+
+[Describe what this project is for and how Claude should assist with your work]
+
+## Key Files and Directories
+
+[Document important files, directories, and their purposes]
+
+## Workflow
+
+[Describe typical workflows and processes for this project]
+
+## Guidelines
+
+[Add any project-specific guidelines, coding standards, or conventions]
