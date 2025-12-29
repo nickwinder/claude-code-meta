@@ -49,6 +49,19 @@ This meta-project contains:
 - `docs/`: User-facing documentation
 - `examples/`: Sample generated projects for reference
 
+## Documentation Lookup
+
+When you need information about Claude Code features, capabilities, or best practices:
+
+1. **Use the claude-code-guide agent**: For questions about Claude Code CLI, hooks, skills, MCP servers, settings, or the Claude Agent SDK, use the Task tool with `subagent_type='claude-code-guide'`
+2. **Online resources**:
+   - Claude Code documentation: https://code.claude.com/docs/en/
+   - Claude API documentation: https://platform.claude.com/docs
+   - MCP documentation: https://modelcontextprotocol.io/ and https://modelcontextprotocol.info/docs/
+   - GitHub repository: https://github.com/anthropics/claude-code
+
+Always verify current capabilities and features rather than relying on assumptions.
+
 ## Usage
 
 To create a new project, simply ask:
